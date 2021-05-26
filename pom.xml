@@ -24,6 +24,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
@@ -43,6 +44,8 @@
   <modules>
   	<module>helloweb</module>
   	<module>emailList01</module>
+  	<module>emailList02</module>
   	<module>guestbook01</module>
+  	<module>guestbook02</module>
   </modules>
 </project>
