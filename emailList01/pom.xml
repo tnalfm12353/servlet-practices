@@ -16,4 +16,8 @@
 		</dependency>
   </dependencies>
   
+  <build>
+  	<finalName>emaillist01</finalName>
+  </build>
+  
 </project>
