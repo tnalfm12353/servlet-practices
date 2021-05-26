@@ -22,7 +22,7 @@ public class EmailListController extends HttpServlet {
 		
 		String action = request.getParameter("a");
 		if("form".equals(action)) {
-			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/form.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/form.jsp");
 			rd.forward(request, response);
 		} else if("add".equals(action)) {
 			// 1. 요청처리
