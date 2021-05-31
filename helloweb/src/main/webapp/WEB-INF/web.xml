@@ -19,5 +19,24 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
-
+  <servlet>
+    <description></description>
+    <display-name>CookieServlet</display-name>
+    <servlet-name>CookieServlet</servlet-name>
+    <servlet-class>com.douzone.helloweb.controller.CookieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieServlet</servlet-name>
+    <url-pattern>/visit</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LifeCircleServlet</display-name>
+    <servlet-name>LifeCircleServlet</servlet-name>
+    <servlet-class>com.douzone.helloweb.controller.LifeCircleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LifeCircleServlet</servlet-name>
+    <url-pattern>/life</url-pattern>
+  </servlet-mapping>
 </web-app>
